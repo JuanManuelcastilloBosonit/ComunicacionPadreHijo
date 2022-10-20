@@ -1,0 +1,17 @@
+<h1>GRAFICAS CON DATOS</h1>
+
+<div class="row" style="width: 500px;">
+    <div class="col">
+        <div style="display: block">
+            <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType">
+            </canvas>
+          </div>
+          <app-grafica-linea></app-grafica-linea>
+    </div>
+</div>
+
